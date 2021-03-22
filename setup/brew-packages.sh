@@ -9,6 +9,7 @@ fi
 # Installs
 brew install git
     \hub
+    \coreutils
     \wget
     \mas
     \mongodb
