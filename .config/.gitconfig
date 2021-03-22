@@ -1,0 +1,24 @@
+[user]
+	name = Miles Crighton
+	email = miles.crighton@gmail.com
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
+[color "diff"]
+    meta = yellow
+    old = red
+    new = green
+[alias]
+	add-commit = !git add -A && git commit
+	ac = !git add -A && git commit -m
+    co = checkout
+    cb = checkout -b
+[hub]
+	protocol = https
+[alias]
+    plog = log --graph --pretty=format:'%C(bold blue)%h%Creset - %C(yellow)%d%Creset %s %C(cyan dim)(%cr)%Creset %n' --abbrev-commit --branches
