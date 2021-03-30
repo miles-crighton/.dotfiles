@@ -20,5 +20,5 @@ brew install git
     \bash
     \fish
     \nvim
+    \exa
     \"source-highlight"
-
