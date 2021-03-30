@@ -18,7 +18,8 @@ brew install git
     \node
     \gcc
     \bash
-    \fish
     \nvim
     \exa
+    \fish
+    \starship
     \"source-highlight"
