@@ -20,6 +20,7 @@ brew install git
     \bash
     \nvim
     \exa
+    \bat
     \fish
     \starship
     \"source-highlight"
