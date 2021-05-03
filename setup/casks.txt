@@ -1,0 +1,9 @@
+
+visual-studio-code
+mos
+spotify
+brave-browser
+postman
+iterm2
+itsycal
+the-unarchiver

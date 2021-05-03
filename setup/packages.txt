@@ -1,0 +1,14 @@
+git
+hub
+coreutils
+wget
+mas
+mysql
+postgresql
+node
+gcc
+bash
+nvim
+exa
+bat
+starship
