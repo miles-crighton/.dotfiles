@@ -1,6 +1,12 @@
 [user]
 	name = Miles Crighton
 	email = miles.crighton@gmail.com
+[includeIf "gitdir:~/work/"]
+    path = ~/work/.gitconfig
+[pull]
+    rebase = true
+[rebase]
+    autoStash = true
 [color]
     diff = auto
     status = auto
