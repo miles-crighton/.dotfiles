@@ -191,6 +191,12 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
+# Auto hide dock
+defaults write com.apple.dock autohide -bool true
+
+# Auto hide dock animation reveal/hide timer
+defaults write com.apple.dock autohide-time-modifier -float 0.3
+
 
 ###############################################################################
 # Terminal & iTerm 2                                                          #
