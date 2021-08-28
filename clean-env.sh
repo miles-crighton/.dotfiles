@@ -1,5 +1,8 @@
 # Config dots
 rm -rf $HOME/.config/starship.toml
+rm -rf $HOME/.config/skhd
+rm -rf $HOME/.config/yabai
+rm -rf $HOME/.config/kitty
 
 # Home dots
 rm -rf $HOME/.tmux.conf
