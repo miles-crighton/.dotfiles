@@ -1,4 +1,4 @@
-
+kitty
 visual-studio-code
 mos
 spotify
@@ -7,3 +7,6 @@ postman
 iterm2
 itsycal
 the-unarchiver
+font-fire-code-nerd-font
+font-fire-mono-nerd-font
+slack

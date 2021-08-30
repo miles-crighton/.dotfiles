@@ -12,3 +12,8 @@ nvim
 exa
 bat
 starship
+switchaudio-osx
+yabai
+skhd
+tmux
+neovim

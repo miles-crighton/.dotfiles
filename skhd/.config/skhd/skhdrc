@@ -11,15 +11,30 @@
 #     "google chrome"
 # ]
 
+################################################################
+############################ MISC ##############################
+################################################################
+
 ## Quickly restart the yabai launch agent
 cmd + alt - r : launchctl kickstart -k "gui/$UID/homebrew.mxcl.yabai"
+
+## Switch audio to headphones
+shift + cmd - a : SwitchAudioSource -c | grep -q 'Head' && SwitchAudioSource -u Speaker || SwitchAudioSource -u Headphone
+
+## Switch audio to speakers
 
 ################################################################
 ######################## CREATE/DELETE #########################
 ################################################################
 
-# open terminal, blazingly fast compared to iTerm/Hyper
+# Open terminal
 cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+
+# Open Browser
+cmd - b : /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser
+
+# Open / Focus Spotify
+cmd - s : open -a Spotify
 
 # create desktop, move window and follow focus - uses jq for parsing json (brew install jq)
 # Not available currently, requires SID
@@ -74,6 +89,9 @@ shift + alt - up : yabai -m window --grid 1:1:0:0:1:1
 # float / unfloat window and center on screen
 alt - t : yabai -m window --toggle float;\
           yabai -m window --grid 24:24:1:1:22:22
+
+# Make window full screen
+shift + alt - f : yabai -m window --toggle zoom-parent
 
 ################################################################
 ############################# UNUSED ###########################
