@@ -31,10 +31,13 @@ shift + cmd - a : SwitchAudioSource -c | grep -q 'Head' && SwitchAudioSource -u 
 cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
 
 # Open Browser
-cmd - b : /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser
+shift + cmd - b : /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser
 
 # Open / Focus Spotify
-cmd - s : open -a Spotify
+shift + cmd - s : open -a Spotify
+
+# Open / Focus Slack 
+shift + cmd - m : open -a Slack
 
 # create desktop, move window and follow focus - uses jq for parsing json (brew install jq)
 # Not available currently, requires SID
