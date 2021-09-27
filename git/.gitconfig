@@ -34,3 +34,5 @@
     defaultBranch = master
 [credential]
     helper = manager
+[core]
+    editor = vi
