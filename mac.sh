@@ -6,3 +6,4 @@ stow tmux
 stow kitty
 stow skhd
 stow yabai
+stow nvim
