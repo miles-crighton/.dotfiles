@@ -37,7 +37,13 @@ shift + cmd - b : /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser
 shift + cmd - s : open -a Spotify
 
 # Open / Focus Slack 
-shift + cmd - m : open -a Slack
+shift + cmd - i : open -a Slack
+
+# Open / Focus Mail 
+shift + cmd - m : open -a Mail 
+
+# Open / Focus Calendar 
+shift + cmd - c : open -a Calendar 
 
 # create desktop, move window and follow focus - uses jq for parsing json (brew install jq)
 # Not available currently, requires SID
