@@ -13,7 +13,7 @@ exa
 bat
 starship
 switchaudio-osx
-yabai
+koekeishiya/formulae/yabai
 skhd
 tmux
 neovim
