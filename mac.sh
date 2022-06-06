@@ -7,3 +7,4 @@ stow kitty
 stow skhd
 stow yabai
 stow nvim
+stow fish
