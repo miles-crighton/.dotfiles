@@ -21,7 +21,7 @@
     new = green
 [alias]
     ac = !git add -A && git commit -m
-    l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+    l = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn\\ \\-\\ %ad]%n\\ \\ \\ %Cgreen|" --decorate --date=short
     plog = log --graph --pretty=format:'%C(bold blue)%h%Creset - %C(yellow)%d%Creset %s %C(cyan dim)(%cr)%Creset %n' --abbrev-commit --branches
     s = status -s
     co = checkout
