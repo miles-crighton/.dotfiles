@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
+
 # bsp or float (default: bsp)
 #yabai -m config layout bsp
 
@@ -67,11 +70,11 @@ yabai -m config mouse_action1 move
 
 ## Change how yabai looks
 yabai -m config layout bsp
-yabai -m config top_padding 10
-yabai -m config bottom_padding 10
-yabai -m config left_padding 10
-yabai -m config right_padding 10
-yabai -m config window_gap 10
+yabai -m config top_padding 0
+yabai -m config bottom_padding 0
+yabai -m config left_padding 0
+yabai -m config right_padding 0
+yabai -m config window_gap 0
 
 #Limelight addon (Kill it and start it each time Yabai starts)
 # killall limelight &>/dev/null
