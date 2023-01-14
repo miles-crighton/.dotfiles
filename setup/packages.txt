@@ -17,3 +17,4 @@ koekeishiya/formulae/yabai
 skhd
 tmux
 neovim
+delta
