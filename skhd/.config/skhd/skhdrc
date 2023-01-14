@@ -21,8 +21,6 @@ cmd + alt - r : launchctl kickstart -k "gui/$UID/homebrew.mxcl.yabai"
 ## Switch audio to headphones
 shift + cmd - a : SwitchAudioSource -c | grep -q 'Head' && SwitchAudioSource -u Speaker || SwitchAudioSource -u Headphone
 
-## Switch audio to speakers
-
 ################################################################
 ######################## CREATE/DELETE #########################
 ################################################################
