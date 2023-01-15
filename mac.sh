@@ -8,3 +8,5 @@ stow skhd
 stow yabai
 stow nvim
 stow fish
+stow antigen
+stow zsh

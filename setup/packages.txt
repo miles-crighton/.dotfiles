@@ -18,3 +18,4 @@ skhd
 tmux
 neovim
 delta
+sheldon
