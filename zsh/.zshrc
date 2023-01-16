@@ -1,6 +1,7 @@
 sources=(
   'aliases'
   'highlight-styles'
+  'functions'
 )
 
 for s in "${sources[@]}"; do
