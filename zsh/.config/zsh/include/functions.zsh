@@ -21,3 +21,7 @@ function tmux-hortis {
     # Attach to session
     tmux attach-session -t $SESSION_NAME
 }
+
+function flush-dns {
+    sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+}
