@@ -1,8 +1,8 @@
 [user]
 	name = Miles Crighton
 	email = miles.crighton@gmail.com
-[includeIf "gitdir:~/work/"]
-    path = ~/work/.gitconfig
+; [includeIf "gitdir:~/work/"]
+;     path = ~/work/.gitconfig
 [pull]
     rebase = true
 [rebase]
@@ -51,3 +51,5 @@
     conflictstyle = diff3
 [diff]
     colorMoved = default
+[credential "http://git.codesubmit.io"]
+	provider = generic
