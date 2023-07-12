@@ -20,6 +20,10 @@ eval "$(sheldon source)"
 # Load prompt
 eval "$(starship init zsh)"
 
+# Set default editor
+export EDITOR=nvim
+export VISUAL="$EDITOR"
+
 # pnpm
 export PNPM_HOME="/Users/milescrighton/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
