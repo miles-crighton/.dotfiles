@@ -25,3 +25,11 @@ function tmux-hortis {
 function flush-dns {
     sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 }
+
+function addToPathFront {
+    if [[ "$PATH" != *"$1"* ]]; then
+        export PATH=$1:$PATH
+    fi
+}
+
+bindkey -s ^f "tmux-sessionizer\n"
