@@ -26,7 +26,7 @@ shift + cmd - a : SwitchAudioSource -c | grep -q 'Head' && SwitchAudioSource -u 
 ################################################################
 
 # Open terminal
-cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+shift + cmd - t : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
 
 # Open Browser
 shift + cmd - b : /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser
