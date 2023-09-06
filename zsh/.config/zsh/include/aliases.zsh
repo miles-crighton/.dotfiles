@@ -19,3 +19,6 @@ alias gp='git pull'
 alias gP='git push'
 alias gc-='git checkout -'
 alias gaacan='gaa && gcan'
+
+##### Misc #####
+alias tf='terraform'
