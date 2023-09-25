@@ -4,7 +4,7 @@
 if [[ $# -eq 1 ]] && [[ "$1" != "--nvim" ]]; then
     selected=$1
 else
-    selected=$(find ~/work ~ -mindepth 1 -maxdepth 1 -type d | fzf)
+    selected=$(find ~/work ~/code ~ -mindepth 1 -maxdepth 1 -type d | fzf)
 fi
 
 if [[ -z $selected ]]; then
