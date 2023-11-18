@@ -27,4 +27,9 @@ export VISUAL="$EDITOR"
 # pnpm
 export PNPM_HOME="/Users/milescrighton/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-# pnpm end
+
+# Go
+export GOPATH=$HOME/golang
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
