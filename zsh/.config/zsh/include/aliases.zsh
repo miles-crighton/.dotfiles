@@ -21,6 +21,7 @@ alias gP='git push'
 alias gC-='git checkout -'
 alias gCb='git checkout -b'
 alias gaacan='gaa && gcan'
+alias gr-='git rebase -'
 
 ##### Misc #####
 alias tf='terraform'
