@@ -33,3 +33,6 @@ export GOPATH=$HOME/golang
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+
+# opam configuration
+[[ ! -r /Users/milescrighton/.opam/opam-init/init.zsh ]] || source /Users/milescrighton/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
