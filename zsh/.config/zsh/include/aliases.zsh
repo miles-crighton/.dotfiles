@@ -28,6 +28,9 @@ alias gCb='git checkout -b'
 alias gaacan='gaa && gcan'
 alias gri='git rebase -i HEAD~10 --autosquash'
 alias gr-='git rebase -'
+alias gS='git stash --include-untracked'
+alias gSa='git stash apply'
+alias gSp='git stash pop'
 
 ##### Misc #####
 alias tf='terraform'
