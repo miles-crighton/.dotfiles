@@ -24,3 +24,4 @@ stow
 pnpm
 fzf
 ngrok
+gh
