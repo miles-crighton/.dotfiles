@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 alias vim='nvim'
-alias ls='exa'
+alias ls='eza'
 alias cat='bat'
 alias src='source ~/.zshrc'
 

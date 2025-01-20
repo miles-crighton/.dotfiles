@@ -9,7 +9,7 @@ node
 gcc
 bash
 nvim
-exa
+eza
 bat
 starship
 switchaudio-osx
@@ -19,3 +19,5 @@ tmux
 neovim
 delta
 sheldon
+ripgrep
+stow

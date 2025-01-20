@@ -10,3 +10,9 @@ the-unarchiver
 font-fira-code-nerd-font
 font-fira-mono-nerd-font
 slack
+bazecor
+raycast
+arc
+notion
+monitorcontrol
+linear-linear
