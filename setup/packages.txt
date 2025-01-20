@@ -22,3 +22,5 @@ sheldon
 ripgrep
 stow
 pnpm
+fzf
+ngrok
