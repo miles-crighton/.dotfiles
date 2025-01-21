@@ -25,3 +25,4 @@ pnpm
 fzf
 ngrok
 gh
+jq
