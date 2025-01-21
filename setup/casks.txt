@@ -18,3 +18,4 @@ monitorcontrol
 linear-linear
 docker
 beekeeper-studio
+google-cloud-sdk
