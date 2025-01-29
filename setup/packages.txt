@@ -26,3 +26,4 @@ fzf
 ngrok
 gh
 jq
+parallel
