@@ -23,4 +23,5 @@ brew install git
     \bat
     \fish
     \starship
+    \pyenv
     \"source-highlight"
